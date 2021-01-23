@@ -9,13 +9,17 @@
 *.so.*
 *.dll
 *.dylib
+*.obj
+*.ilk
+*.pdb
+*.exe
 
 # Qt-es
 object_script.*.Release
 object_script.*.Debug
 *_plugin_import.cpp
-/.qmake.cache
-/.qmake.stash
+.qmake.cache
+.qmake.stash
 *.pro.user
 *.pro.user.*
 *.qbs.user
@@ -31,6 +35,10 @@ Makefile*
 *build-*
 *.qm
 *.prl
+*.log
+*.idx
+temp
+qmake
 
 # Qt unit tests
 target_wrapper.*
@@ -50,3 +58,9 @@ compile_commands.json
 
 # QtCreator local machine specific files for imported projects
 *creator.user*
+
+#Visual Studio Files
+.vs
+*.tlog
+*.vcxproj.user
+*.vcxproj.user.*
