@@ -108,7 +108,7 @@
       <item row="0" column="0" colspan="2">
        <widget class="QLabel" name="lblInputDir">
         <property name="text">
-         <string>Папка со входными звуковыми файлами</string>
+         <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Папка со входными звуковыми файлами формата .wav&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
         </property>
        </widget>
       </item>
@@ -328,7 +328,7 @@
            </size>
           </property>
           <property name="text">
-           <string>Обработать файлы</string>
+           <string>Обработать файлы .wav</string>
           </property>
          </widget>
         </item>

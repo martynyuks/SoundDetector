@@ -16,14 +16,15 @@ protected:
 private slots:
     void btnInputDirClicked();
     void btnOutputDirClicked();
+    void btnProcessFilesClicked();
 
 private:
     Ui::MainWindowClass ui;
 
-    QString inputDir;
-    QString outputDir;
-    int silenceVolume;
-    int silenceInterval;
+    QString _inputDir;
+    QString _outputDir;
+    int _silenceVolume;
+    int _silenceInterval;
 
     void connectSignalsAndSlots();
     void loadSettings();

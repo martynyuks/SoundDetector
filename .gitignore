@@ -59,8 +59,11 @@ compile_commands.json
 # QtCreator local machine specific files for imported projects
 *creator.user*
 
-#Visual Studio Files
+# Visual Studio Files
 .vs
 *.tlog
 *.vcxproj.user
 *.vcxproj.user.*
+
+# Application settings
+*.ini

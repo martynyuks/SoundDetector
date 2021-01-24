@@ -17,10 +17,12 @@ DEFINES += QT_DEPRECATED_WARNINGS
 
 SOURCES += \
     main.cpp \
-    mainwindow.cpp
+    mainwindow.cpp \
+    wavfilesounddetect.cpp
 
 HEADERS += \
-    mainwindow.h
+    mainwindow.h \
+    wavfilesounddetect.h
 
 FORMS += \
     mainwindow.ui
